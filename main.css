@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  max-width: 600px;
+}
+h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+.container {
+  margin-left: 42%;
+}
+
+.primary {
+  margin-bottom: 12px;
+  width: 40%;
+  padding: 8px;
+  padding-left: 12px;
+  font-size: 1.2rem;
+  background: #90dcdd;
+}
+.secondary {
+  margin-left: 5px;
+  padding: 8px;
+  width: 9.1%;
+  background-color: #f5b3ea;
+  outline: none;
+  font-size: 1.2rem;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  gap: 10px;
+  height: 60px;
+}
+.btn {
+  padding: 8px;
+  font-size: 2rem;
+}
+.equal-sign {
+  background: #00afd0;
+}
+.operator {
+  background:#d1f07c;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    html {
+      overflow: hidden;
+    }
+    body {
+      background-color: #121534;
+    }
+    .logo {
+      margin-left: 5px;
+      padding: 8px;
+    }
+    .logo i {
+      font-size: 1.4rem;
+      padding: 8px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+    }
+ 
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    ul li {
+      list-style: none;
+      margin-right: 25px;
+    }
+    li a {
+      text-decoration: none;
+    }
+    li:hover {
+      transform: translateY(-5px);
+      transition: all ease-in 0.2s;
+      position: relative;
+    }
+    li:hover::after {
+      width: 100%;
+      height: 3px;
+      color: #9b0a1d;
+      position: absolute
+    }
+    h1, h2, p {
+      color: #ffffff;
+    }
+    h1 {
+      margin-top: 15%;
+      margin-left:10%;
+    }
+    h2, p, button {
+      margin-left: 10%;
+    }
+    .wrapper {
+      margin-left: 45%;
+      margin-top: -14%;
+    }
+    .item {
+      border: 1px solid #ffffff;
+      background: #000000;
+      color: #ffffff;
+      padding: 4px;
+      cursor: pointer;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section class="nav">
+    <div class="logo">
+      <a href=""><i><i class="fa-solid fa-utensils"></i>Food</i></a>
+    </div>
+    <ul class="menu">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Popular</a></li>
+      <li><a href="">Contace</a></li>
+      <li><a href="">Menu</a></li>
+    </ul>
+    
+  </section>
+  <main class="toggle">
+    <h1>The Cheese Decker</h1>
+    <h2>Fastest Food For, Instant<br /> Hunger</h2>
+    <p>
+      Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,<br />ab? ipsum dolor sit amet consectetur adipisicing elit.
+      Magni quam voluptates minus<br /> quaerat
+      est exercitationem et laboriosam excepturi vero ea.
+    </p>
+    <a href="#"><button class="item">Order Now</button></a>
+   <br />
+   <img src=".//assets/images/burger.jpg" class="wrapper" alt="A yum burger" height="450px"/>
+  </main>
+  
+
+</body>
+</html>
